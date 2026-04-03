@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Model files (large binary)
+models/*.keras
+models/*.h5
+models/*.task
+
+# Saved drawings
+saved_drawings/
+
+# Test files
+test_frame_*.jpg
+camera_test_results.txt
+
+# TensorFlow logs
+logs/
